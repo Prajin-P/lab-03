@@ -1,0 +1,30 @@
+package com.example.listycitylab3;
+
+public class City {
+    private String name;
+    private String province;
+
+    public City(String name, String province){
+        this.name = name;
+        this.province = province;
+    }
+
+    public String getName(){
+        return name;
+
+    }
+
+    public String getProvince(){
+        return province;
+    }
+
+    // setter for name
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // setter for province
+    public void setProvince(String province) {
+        this.province = province;
+    }
+}
